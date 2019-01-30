@@ -2,7 +2,7 @@ import React from 'react';
 import ContactInformationContainer from './app/contact-information/ContactInformationContainer';
 import EducationContainer from './app/education/EducationContainer';
 import WorkContainer from './app/work/WorkContainer';
-import './index.css';
+import './index.scss';
 
 const App = () => (
   <div className="container">

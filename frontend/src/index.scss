@@ -47,18 +47,17 @@ body {
 
 table {
     width: 100%;
-}
+    thead {
+        font-weight: bold;
+    }
 
-thead {
-    font-weight: bold;
-}
+    tr:nth-child(even) {
+        background: white;
+    }
 
-tr:nth-child(even) {
-    background: white;
-}
-
-th, td {
-    padding: 1rem 0.5rem;
+    th, td {
+        padding: 1rem 0.5rem;
+    }
 }
 
 h2 {

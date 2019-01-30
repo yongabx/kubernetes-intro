@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.16.4",
-    "http-proxy": "^1.17.0",
-    "path": "^0.12.7",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
@@ -15,21 +14,13 @@
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "custom-react-scripts": "^0.2.2",
+    "babel-core": "^6.26.3",
     "prop-types": "^15.6.1",
-    "redux-thunk": "^2.3.0",
-    "react-scripts": "1.1.4"
-  },
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:5000"
-    }
+    "react-scripts": "1.1.4",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "production": "node server.js"
+    "dev": "parcel ./src/index.html",
+    "build": "rm -rf dist/ && parcel build src/*.html"
   }
 }
