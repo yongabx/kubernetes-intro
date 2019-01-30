@@ -4,7 +4,7 @@ const path = require('path');
 
 const proxy = httpProxy.createProxyServer();
 const app = express();
-
+// 
 app.use(express.static(path.join(__dirname, 'build')));
 
 const config = {
