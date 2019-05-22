@@ -15,3 +15,5 @@ During this workshop you will learn how to deploy a frontend application and a b
 🤓 - Line Moseng: linemos@gmail.com (💻 - linemos)
 
 🤓 - Ingrid Guren: ingridguren@gmail.com (💻 - ingridguren)
+
+test
